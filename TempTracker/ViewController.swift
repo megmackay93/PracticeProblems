@@ -12,8 +12,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        var messageArray: [Character] = ["c", "a", "k", "e", " ", "p", "o", "u", "n", "d", " ", "s", "t", "e", "a", "l"]
+        print(String(messageArray))
+        reverseWords(message: &messageArray)
+        print(String(messageArray))
     }
-
 
 }
 
